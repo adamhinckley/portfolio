@@ -1,0 +1,1569 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c8a177dc968fea3e919175365a9e64f9",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7386a15eb3bea9e23694ae61b642107e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "56d202bbceb992afa654249ff4c9622d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0af7abfe32a44b637c47f8bf7fca5565",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3fd144bf113c477af77e5061b76d5fa5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9f84640c7a775e59f9c5a5527e2fe020",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d49e243002437880262a0a242775fbc4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "adff233ac5885dd90ce34df9631d0697",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "176dadcc-aa26-5c02-a651-88867760143b": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-styled-components",
+      "id": "176dadcc-aa26-5c02-a651-88867760143b",
+      "name": "gatsby-plugin-styled-components",
+      "version": "3.0.5",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "wrapRootElement",
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "3.0.5",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": "Guten Ye <ywzhaifei@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.32"
+          },
+          {
+            "name": "styled-components",
+            "version": ">=2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "886e28d7ad53e01f1c57540710294b32",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1b5d7027-41ef-5dec-8917-b984cb0df236": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-source-filesystem",
+      "id": "1b5d7027-41ef-5dec-8917-b984cb0df236",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images/",
+        "name": "images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "48271d6051b88ab9dcb2866c554dbb35",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f61d9b03-5e6b-5e6d-bc8c-f796bdb38191": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-analytics",
+      "id": "f61d9b03-5e6b-5e6d-bc8c-f796bdb38191",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.14",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-47519312-5"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.14",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7446d982493837424309e8dec60fac8a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "40a983cb16eff83366e1f688cc3c7c4f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "0fe1761ce1efbfaeca34747d6d6593ec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "fa1b4c05-fa88-524c-ab84-e9a2705fd43d": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-manifest",
+      "id": "fa1b4c05-fa88-524c-ab84-e9a2705fd43d",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Cara - Gatsby Starter Portfolio",
+        "short_name": "Cara",
+        "description": "Playful & Colorful One-Page website with Parallax effect",
+        "start_url": "/",
+        "background_color": "#a0d8f1",
+        "theme_color": "#e07628",
+        "display": "standalone",
+        "icons": [
+          {
+            "src": "/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "5297cae0f9f555502fbd0f76fce67f1f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.23",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.23",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "43d89d376e02ed08efd9d356b4eb1cbd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "54e3ea36-236a-5532-9628-10debfd8525c": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-netlify",
+      "id": "54e3ea36-236a-5532-9628-10debfd8525c",
+      "name": "gatsby-plugin-netlify",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig",
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-netlify",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify",
+        "description": "A Gatsby plugin which generates a _headers file for netlify",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "http/2-server-push",
+          "netlify"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "kebab-hash",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "webpack-assets-manifest",
+            "version": "^3.0.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "f28c2e7909b85747238dc1452d506295",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "61622abb2ac0074d38966b0400e30177",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio",
+      "packageJson": {
+        "name": "gatsby-starter-portfolio-cara",
+        "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+        "version": "3.0.0",
+        "keywords": [
+          "gatsby",
+          "starter",
+          "portfolio"
+        ],
+        "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": "^1.10.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.1.4"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.14"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-netlify",
+            "version": "^2.0.11"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.23"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^3.0.5"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.13"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.2"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.2"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-spring",
+            "version": "^8.0.7"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.1.3"
+          },
+          {
+            "name": "tailwind.macro",
+            "version": "^0.5.10"
+          },
+          {
+            "name": "tailwindcss",
+            "version": "^0.7.4"
+          },
+          {
+            "name": "typeface-cantata-one",
+            "version": "^0.0.54"
+          },
+          {
+            "name": "typeface-open-sans",
+            "version": "^0.0.54"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-eslint",
+            "version": "^10.0.1"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.14.0"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^17.1.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.16.0"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.2.1"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.12.4"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c2ed5e5010ad12e63455f33b6234c00e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "3446de15-7e8b-5d77-bd56-29de770cb676": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-page-creator",
+      "id": "3446de15-7e8b-5d77-bd56-29de770cb676",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "34effc668c8796cf487820d3a85e0700",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "siteUrl": "https://cara.lekoarts.de"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-02-21T23:37:41.202Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "62fbb177292e2f8e62052d0297c4783c",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9c558461-dd83-59e3-b0ef-3e05270203eb": {
+      "id": "9c558461-dd83-59e3-b0ef-3e05270203eb",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1c8f1846511bbb2349a875787c64f584",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images/",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-02-21T23:32:41.432Z",
+      "accessTime": "2019-02-21T23:37:50.670Z",
+      "changeTime": "2019-02-21T23:32:41.432Z",
+      "birthTime": "2019-02-18T07:58:00.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22930900,
+      "blocks": 0,
+      "atimeMs": 1550792270670.002,
+      "mtimeMs": 1550791961432.3572,
+      "ctimeMs": 1550791961432.3572,
+      "birthtimeMs": 1550476680000,
+      "atime": "2019-02-21T23:37:50.670Z",
+      "mtime": "2019-02-21T23:32:41.432Z",
+      "ctime": "2019-02-21T23:32:41.432Z",
+      "birthtime": "2019-02-18T07:58:00.000Z"
+    },
+    "56cefb1e-0829-51d6-8025-19b01e27e514": {
+      "id": "56cefb1e-0829-51d6-8025-19b01e27e514",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9bec4885c09a08972dd775e16122acaf",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/triangle.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images/triangle.svg",
+      "relativePath": "triangle.svg",
+      "extension": "svg",
+      "size": 259,
+      "prettySize": "259 B",
+      "modifiedTime": "2019-02-18T07:58:00.000Z",
+      "accessTime": "2019-02-21T23:32:45.704Z",
+      "changeTime": "2019-02-21T23:24:23.611Z",
+      "birthTime": "2019-02-18T07:58:00.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images",
+      "base": "triangle.svg",
+      "ext": ".svg",
+      "name": "triangle",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22930902,
+      "blocks": 8,
+      "atimeMs": 1550791965703.9448,
+      "mtimeMs": 1550476680000,
+      "ctimeMs": 1550791463611.016,
+      "birthtimeMs": 1550476680000,
+      "atime": "2019-02-21T23:32:45.704Z",
+      "mtime": "2019-02-18T07:58:00.000Z",
+      "ctime": "2019-02-21T23:24:23.611Z",
+      "birthtime": "2019-02-18T07:58:00.000Z"
+    },
+    "39252ebd-1871-5be5-9c18-8da06f63be7d": {
+      "id": "39252ebd-1871-5be5-9c18-8da06f63be7d",
+      "children": [
+        "d45e085d-8f78-5b6d-9891-d94e3eeeaca4"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/avatar.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images/avatar.jpg",
+      "relativePath": "avatar.jpg",
+      "extension": "jpg",
+      "size": 686833,
+      "prettySize": "687 kB",
+      "modifiedTime": "2019-02-21T23:31:03.919Z",
+      "accessTime": "2019-02-21T23:37:17.009Z",
+      "changeTime": "2019-02-21T23:32:41.432Z",
+      "birthTime": "2019-02-21T23:31:03.905Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images",
+      "base": "avatar.jpg",
+      "ext": ".jpg",
+      "name": "avatar",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22979883,
+      "blocks": 1344,
+      "atimeMs": 1550792237008.985,
+      "mtimeMs": 1550791863918.5146,
+      "ctimeMs": 1550791961432.357,
+      "birthtimeMs": 1550791863904.855,
+      "atime": "2019-02-21T23:37:17.009Z",
+      "mtime": "2019-02-21T23:31:03.919Z",
+      "ctime": "2019-02-21T23:32:41.432Z",
+      "birthtime": "2019-02-21T23:31:03.905Z"
+    },
+    "d45e085d-8f78-5b6d-9891-d94e3eeeaca4": {
+      "id": "d45e085d-8f78-5b6d-9891-d94e3eeeaca4",
+      "children": [],
+      "parent": "39252ebd-1871-5be5-9c18-8da06f63be7d",
+      "internal": {
+        "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.jsx",
+      "componentChunkName": "component---src-pages-index-jsx",
+      "context": {},
+      "pluginCreator___NODE": "3446de15-7e8b-5d77-bd56-29de770cb676",
+      "pluginCreatorId": "3446de15-7e8b-5d77-bd56-29de770cb676",
+      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.jsx",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a2d8fcbc8ce86b0773d9a6bf7a75d310",
+        "description": "3446de15-7e8b-5d77-bd56-29de770cb676",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "3057a428633040aa15bf5e684cd96614"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-seo-jsx"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "sq--src-components-seo-jsx": 77616083,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.jsx": {
+      "query": "",
+      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.jsx"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-seo-jsx": {
+      "name": "SEO",
+      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/components/SEO.jsx",
+      "id": "sq--src-components-seo-jsx",
+      "jsonName": "sq--src-components-seo-jsx",
+      "query": "query SEO {\n  site {\n    buildTime(formatString: \"YYYY-MM-DD\")\n  }\n}\n",
+      "hash": 77616083
+    }
+  }
+}
