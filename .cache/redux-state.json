@@ -511,14 +511,14 @@
         "owner": "internal-data-bridge"
       }
     },
-    "f61d9b03-5e6b-5e6d-bc8c-f796bdb38191": {
+    "ce824cfb-606e-5efc-895b-06b470d2f4c8": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-analytics",
-      "id": "f61d9b03-5e6b-5e6d-bc8c-f796bdb38191",
+      "id": "ce824cfb-606e-5efc-895b-06b470d2f4c8",
       "name": "gatsby-plugin-google-analytics",
       "version": "2.0.14",
       "pluginOptions": {
         "plugins": [],
-        "trackingId": "UA-47519312-5"
+        "trackingId": "UA-123339124-3"
       },
       "nodeAPIs": [],
       "browserAPIs": [
@@ -576,7 +576,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7446d982493837424309e8dec60fac8a",
+        "contentDigest": "bc57ed25bac1c01ea0a6e16f36384a1c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -802,15 +802,15 @@
         "owner": "internal-data-bridge"
       }
     },
-    "fa1b4c05-fa88-524c-ab84-e9a2705fd43d": {
+    "cf827ca4-beff-57bd-a41e-2f5b6cb60484": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-manifest",
-      "id": "fa1b4c05-fa88-524c-ab84-e9a2705fd43d",
+      "id": "cf827ca4-beff-57bd-a41e-2f5b6cb60484",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.17",
       "pluginOptions": {
         "plugins": [],
-        "name": "Cara - Gatsby Starter Portfolio",
-        "short_name": "Cara",
+        "name": "Adam H",
+        "short_name": "Adam",
         "description": "Playful & Colorful One-Page website with Parallax effect",
         "start_url": "/",
         "background_color": "#a0d8f1",
@@ -897,7 +897,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5297cae0f9f555502fbd0f76fce67f1f",
+        "contentDigest": "7201494844507c30f9e71b672c76d707",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1346,18 +1346,18 @@
     },
     "Site": {
       "siteMetadata": {
-        "siteUrl": "https://cara.lekoarts.de"
+        "siteUrl": "https://adamhinckley.com"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-21T23:37:41.202Z",
+      "buildTime": "2019-02-25T15:27:26.500Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "62fbb177292e2f8e62052d0297c4783c",
+        "contentDigest": "e725e09e469241e023ece9d405035259",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1367,7 +1367,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "1c8f1846511bbb2349a875787c64f584",
+        "contentDigest": "f3bd1a1d33c8fdb96fe6ecbf632b905e",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1379,8 +1379,8 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2019-02-21T23:32:41.432Z",
-      "accessTime": "2019-02-21T23:37:50.670Z",
-      "changeTime": "2019-02-21T23:32:41.432Z",
+      "accessTime": "2019-02-25T15:27:38.980Z",
+      "changeTime": "2019-02-22T02:24:45.581Z",
       "birthTime": "2019-02-18T07:58:00.000Z",
       "root": "/",
       "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src",
@@ -1397,13 +1397,13 @@
       "blksize": 4096,
       "ino": 22930900,
       "blocks": 0,
-      "atimeMs": 1550792270670.002,
+      "atimeMs": 1551108458979.885,
       "mtimeMs": 1550791961432.3572,
-      "ctimeMs": 1550791961432.3572,
+      "ctimeMs": 1550802285581.2214,
       "birthtimeMs": 1550476680000,
-      "atime": "2019-02-21T23:37:50.670Z",
+      "atime": "2019-02-25T15:27:38.980Z",
       "mtime": "2019-02-21T23:32:41.432Z",
-      "ctime": "2019-02-21T23:32:41.432Z",
+      "ctime": "2019-02-22T02:24:45.581Z",
       "birthtime": "2019-02-18T07:58:00.000Z"
     },
     "56cefb1e-0829-51d6-8025-19b01e27e514": {
@@ -1424,8 +1424,8 @@
       "size": 259,
       "prettySize": "259 B",
       "modifiedTime": "2019-02-18T07:58:00.000Z",
-      "accessTime": "2019-02-21T23:32:45.704Z",
-      "changeTime": "2019-02-21T23:24:23.611Z",
+      "accessTime": "2019-02-25T15:26:59.218Z",
+      "changeTime": "2019-02-22T02:24:46.837Z",
       "birthTime": "2019-02-18T07:58:00.000Z",
       "root": "/",
       "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images",
@@ -1442,13 +1442,13 @@
       "blksize": 4096,
       "ino": 22930902,
       "blocks": 8,
-      "atimeMs": 1550791965703.9448,
+      "atimeMs": 1551108419217.9817,
       "mtimeMs": 1550476680000,
-      "ctimeMs": 1550791463611.016,
+      "ctimeMs": 1550802286836.565,
       "birthtimeMs": 1550476680000,
-      "atime": "2019-02-21T23:32:45.704Z",
+      "atime": "2019-02-25T15:26:59.218Z",
       "mtime": "2019-02-18T07:58:00.000Z",
-      "ctime": "2019-02-21T23:24:23.611Z",
+      "ctime": "2019-02-22T02:24:46.837Z",
       "birthtime": "2019-02-18T07:58:00.000Z"
     },
     "39252ebd-1871-5be5-9c18-8da06f63be7d": {
@@ -1471,8 +1471,8 @@
       "size": 686833,
       "prettySize": "687 kB",
       "modifiedTime": "2019-02-21T23:31:03.919Z",
-      "accessTime": "2019-02-21T23:37:17.009Z",
-      "changeTime": "2019-02-21T23:32:41.432Z",
+      "accessTime": "2019-02-25T15:26:56.930Z",
+      "changeTime": "2019-02-22T02:24:46.708Z",
       "birthTime": "2019-02-21T23:31:03.905Z",
       "root": "/",
       "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images",
@@ -1489,13 +1489,13 @@
       "blksize": 4096,
       "ino": 22979883,
       "blocks": 1344,
-      "atimeMs": 1550792237008.985,
+      "atimeMs": 1551108416929.535,
       "mtimeMs": 1550791863918.5146,
-      "ctimeMs": 1550791961432.357,
+      "ctimeMs": 1550802286707.5159,
       "birthtimeMs": 1550791863904.855,
-      "atime": "2019-02-21T23:37:17.009Z",
+      "atime": "2019-02-25T15:26:56.930Z",
       "mtime": "2019-02-21T23:31:03.919Z",
-      "ctime": "2019-02-21T23:32:41.432Z",
+      "ctime": "2019-02-22T02:24:46.708Z",
       "birthtime": "2019-02-21T23:31:03.905Z"
     },
     "d45e085d-8f78-5b6d-9891-d94e3eeeaca4": {
@@ -1531,7 +1531,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "3057a428633040aa15bf5e684cd96614"
+    "PLUGINS_HASH": "9b64858354d15d21c34da8804260ad1b"
   },
   "componentDataDependencies": {
     "nodes": {
