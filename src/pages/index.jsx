@@ -56,55 +56,55 @@ const Footer = styled.footer`
 const Index = () => (
     <>
         <Layout />
-        {/* <Parallax pages={7}> */}
-        <Hero offset={0}>
-            <BigTitle>
-                Hello, <br /> I'm Adam Hinckley.
-            </BigTitle>
-            <Subtitle>I'm creating web experiences for the next generation of consumer-facing companies.</Subtitle>
-        </Hero>
-        <Projects offset={1}>
-            <Title>Projects</Title>
-            <ProjectsWrapper>
-                <ProjectCard
-                    title="Cadence"
-                    link="https://getcadence.co/"
-                    bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
-                >
-                    SaaS application for scheduling employees
-                </ProjectCard>
-                <ProjectCard
-                    title="Risk Assessment"
-                    link="https://risk-assesment.netlify.com/"
-                    bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
-                >
-                    Mobile SPA for insurance agents to find a suitable product for a client based on age, gender,
-                    height, weight, and prescriptions
-                </ProjectCard>
-            </ProjectsWrapper>
-        </Projects>
-        <About offset={3}>
-            <Title>About</Title>
-            <AboutHero>
-                <Avatar src={avatar} alt="John Doe" />
-                <AboutSub>
-                    Adam is a a former life insurance agency owner that found a love for web development after creating
-                    underwriting solutions for the agents he worked with.
-                </AboutSub>
-            </AboutHero>
-        </About>
-        <Contact offset={4}>
-            <Inner>
-                <Title>Get in touch</Title>
-                <ContactText>
-                    <a href="mailto:adamhinckley@mac.com">Email me</a> or find me on{" "}
-                    <a href="https://twitter.com/HinckleyAdam">Twitter</a> &{" "}
-                    <a href="https://www.linkedin.com/in/adamhinckley/">LinkedIn</a>
-                </ContactText>
-            </Inner>
-            <Footer>&copy; 2019 Adam Hinckley</Footer>
-        </Contact>
-        {/* </Parallax> */}
+        <Parallax pages={7}>
+            <Hero offset={0}>
+                <BigTitle>
+                    Hello, <br /> I'm Adam Hinckley.
+                </BigTitle>
+                <Subtitle>I'm creating web experiences for the next generation of consumer-facing companies.</Subtitle>
+            </Hero>
+            <Projects offset={1}>
+                <Title>Projects</Title>
+                <ProjectsWrapper>
+                    <ProjectCard
+                        title="Cadence"
+                        link="https://getcadence.co/"
+                        bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+                    >
+                        SaaS application for scheduling employees
+                    </ProjectCard>
+                    <ProjectCard
+                        title="Risk Assessment"
+                        link="https://risk-assesment.netlify.com/"
+                        bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+                    >
+                        Mobile SPA for insurance agents to find a suitable product for a client based on age, gender,
+                        height, weight, and prescriptions
+                    </ProjectCard>
+                </ProjectsWrapper>
+            </Projects>
+            <About offset={3}>
+                <Title>About</Title>
+                <AboutHero>
+                    <Avatar src={avatar} alt="John Doe" />
+                    <AboutSub>
+                        Adam is a a former life insurance agency owner that found a love for web development after
+                        creating underwriting solutions for the agents he worked with.
+                    </AboutSub>
+                </AboutHero>
+            </About>
+            <Contact offset={4}>
+                <Inner>
+                    <Title>Get in touch</Title>
+                    <ContactText>
+                        <a href="mailto:adamhinckley@mac.com">Email me</a> or find me on{" "}
+                        <a href="https://twitter.com/HinckleyAdam">Twitter</a> &{" "}
+                        <a href="https://www.linkedin.com/in/adamhinckley/">LinkedIn</a>
+                    </ContactText>
+                </Inner>
+                <Footer>&copy; 2019 Adam Hinckley</Footer>
+            </Contact>
+        </Parallax>
     </>
 )
 
