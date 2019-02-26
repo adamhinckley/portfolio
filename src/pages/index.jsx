@@ -56,7 +56,7 @@ const Footer = styled.footer`
 const Index = () => (
     <>
         <Layout />
-        <Parallax pages={7}>
+        <Parallax pages={5}>
             <Hero offset={0}>
                 <BigTitle>
                     Hello, <br /> I'm Adam Hinckley.
