@@ -1,28 +1,29 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
       "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c8a177dc968fea3e919175365a9e64f9",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "000faa0664093237779ca39c55f6ac33",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
-    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+    "Plugin dev-404-page": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
-      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
@@ -47,33 +48,37 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7386a15eb3bea9e23694ae61b642107e",
+        "contentDigest": "09d15426fd42cc795212346a03730076",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/load-babel-config",
-      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
-      "name": "load-babel-config",
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "onPreBootstrap"
+        "createLayouts"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
-        "name": "load-babel-config",
-        "description": "Internal plugin that handles loading Babel configs",
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
         "version": "1.0.0",
         "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [],
@@ -82,17 +87,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "56d202bbceb992afa654249ff4c9622d",
+        "contentDigest": "f0402d715aaaafa9e20371efbec9e54e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+    "Plugin internal-data-bridge": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
-      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
@@ -118,17 +123,17 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0af7abfe32a44b637c47f8bf7fca5565",
+        "contentDigest": "e89769d27321757ea9619cda88cb63bd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+    "Plugin prod-404": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
-      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
@@ -153,24 +158,25 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3fd144bf113c477af77e5061b76d5fa5",
+        "contentDigest": "380c12cc145bf395548cb1d578ea3288",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+    "Plugin query-runner": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "onCreatePage"
+        "onCreatePage",
+        "onCreateLayout"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
@@ -188,214 +194,85 @@
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9f84640c7a775e59f9c5a5527e2fe020",
+        "contentDigest": "654d2fb8e5a10dc31750f50ecbfba392",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
-      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
-      "name": "webpack-theme-component-shadowing",
-      "version": "1.0.0",
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.10",
       "pluginOptions": {
-        "plugins": []
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
       },
       "nodeAPIs": [
-        "onCreateWebpackConfig"
+        "onPreBootstrap"
       ],
       "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-typography",
       "packageJson": {
-        "name": "webpack-theme-component-shadowing",
-        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
-        "version": "1.0.0",
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.10",
         "main": "index.js",
-        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
         "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d49e243002437880262a0a242775fbc4",
+        "contentDigest": "2572d1a86e44290a1efa25b2f8838f01",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
-      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
-      "name": "gatsby-plugin-react-helmet",
-      "version": "3.0.6",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
-      "packageJson": {
-        "name": "gatsby-plugin-react-helmet",
-        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
-        "version": "3.0.6",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "favicon",
-          "react-helmet",
-          "seo",
-          "document",
-          "head",
-          "title",
-          "meta",
-          "link",
-          "script",
-          "base",
-          "noscript",
-          "style"
-        ],
-        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          },
-          {
-            "name": "react-helmet",
-            "version": "^5.1.3"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "adff233ac5885dd90ce34df9631d0697",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "176dadcc-aa26-5c02-a651-88867760143b": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-styled-components",
-      "id": "176dadcc-aa26-5c02-a651-88867760143b",
-      "name": "gatsby-plugin-styled-components",
-      "version": "3.0.5",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateBabelConfig"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "wrapRootElement",
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-styled-components",
-      "packageJson": {
-        "name": "gatsby-plugin-styled-components",
-        "description": "Gatsby plugin to add support for styled components",
-        "version": "3.0.5",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "styled-components"
-        ],
-        "author": "Guten Ye <ywzhaifei@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "babel-plugin-styled-components",
-            "version": ">1.5.0"
-          },
-          {
-            "name": "gatsby",
-            "version": "^2.0.32"
-          },
-          {
-            "name": "styled-components",
-            "version": ">=2.0.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "886e28d7ad53e01f1c57540710294b32",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "1b5d7027-41ef-5dec-8917-b984cb0df236": {
+    "Plugin gatsby-source-filesystem": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-source-filesystem",
-      "id": "1b5d7027-41ef-5dec-8917-b984cb0df236",
+      "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
-      "version": "2.0.20",
+      "version": "1.5.39",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images/",
-        "name": "images"
+        "name": "images",
+        "path": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -407,7 +284,7 @@
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
-        "version": "2.0.20",
+        "version": "1.5.39",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
@@ -416,8 +293,12 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
           },
           {
             "name": "better-queue",
@@ -432,12 +313,8 @@
             "version": "^1.7.0"
           },
           {
-            "name": "file-type",
-            "version": "^10.2.0"
-          },
-          {
             "name": "fs-extra",
-            "version": "^5.0.0"
+            "version": "^4.0.1"
           },
           {
             "name": "got",
@@ -449,19 +326,11 @@
           },
           {
             "name": "mime",
-            "version": "^2.2.0"
+            "version": "^1.3.6"
           },
           {
             "name": "pretty-bytes",
             "version": "^4.0.2"
-          },
-          {
-            "name": "progress",
-            "version": "^1.1.8"
-          },
-          {
-            "name": "read-chunk",
-            "version": "^3.0.0"
           },
           {
             "name": "slash",
@@ -470,122 +339,405 @@
           {
             "name": "valid-url",
             "version": "^1.0.9"
-          },
-          {
-            "name": "xstate",
-            "version": "^3.1.0"
           }
         ],
         "devDependencies": [
           {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
             "name": "cross-env",
-            "version": "^5.1.4"
+            "version": "^5.0.5"
           }
         ],
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^2.0.0"
+            "version": "^1.9.250"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "48271d6051b88ab9dcb2866c554dbb35",
+        "contentDigest": "aeb5e56dba792122eb2e36d218379dc9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "ce824cfb-606e-5efc-895b-06b470d2f4c8": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-analytics",
-      "id": "ce824cfb-606e-5efc-895b-06b470d2f4c8",
-      "name": "gatsby-plugin-google-analytics",
-      "version": "2.0.14",
+    "Plugin gatsby-plugin-google-fonts": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-fonts",
+      "id": "Plugin gatsby-plugin-google-fonts",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "0.0.3",
       "pluginOptions": {
         "plugins": [],
-        "trackingId": "UA-123339124-3"
+        "fonts": [
+          "librebaskerville",
+          "open sans"
+        ]
       },
       "nodeAPIs": [],
-      "browserAPIs": [
-        "onRouteUpdate"
-      ],
+      "browserAPIs": [],
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-analytics",
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-fonts",
       "packageJson": {
-        "name": "gatsby-plugin-google-analytics",
-        "description": "Gatsby plugin to add google analytics onto a site",
-        "version": "2.0.14",
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "0.0.3",
         "main": "index.js",
         "keywords": [
           "gatsby",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": "Didier Franc <dev@didierfranc.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ef198f6210aaac71193043d089def4f9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 630
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.37",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
           "gatsby-plugin",
-          "google analytics"
+          "markdown",
+          "remark"
         ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
           }
         ],
         "devDependencies": [
           {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
+            "name": "babel-cli",
+            "version": "^6.26.0"
           },
           {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
           },
           {
             "name": "cross-env",
-            "version": "^5.1.4"
+            "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          }
-        ],
+        "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bc57ed25bac1c01ea0a6e16f36384a1c",
+        "contentDigest": "5283c0f50d98a870e571df960b2d94f2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 630
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "64c1538ec60155bf2b733e847b9ed2f6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.37",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.37",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7199441e65ed4994824a8cad028e0ad9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-sharp",
-      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "id": "Plugin gatsby-transformer-sharp",
       "name": "gatsby-transformer-sharp",
-      "version": "2.1.13",
+      "version": "1.6.27",
       "pluginOptions": {
         "plugins": []
       },
@@ -600,7 +752,7 @@
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
-        "version": "2.1.13",
+        "version": "1.6.27",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
@@ -611,8 +763,8 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
+            "name": "babel-runtime",
+            "version": "^6.26.0"
           },
           {
             "name": "bluebird",
@@ -623,75 +775,48 @@
             "version": "^4.0.2"
           },
           {
-            "name": "potrace",
-            "version": "^2.1.1"
-          },
-          {
             "name": "probe-image-size",
             "version": "^4.0.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.21.3"
           }
         ],
         "devDependencies": [
           {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "name": "babel-cli",
+            "version": "^6.26.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.1.4"
+            "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.33"
-          },
-          {
-            "name": "gatsby-plugin-sharp",
-            "version": "^2.0.0-beta.3"
-          }
-        ],
+        "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "40a983cb16eff83366e1f688cc3c7c4f",
+        "contentDigest": "6e798a54c8a07c988483d656b447bfd5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "84d6154d-4241-556c-a679-cc8339cac100": {
+    "Plugin gatsby-plugin-sharp": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sharp",
-      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
-      "version": "2.0.20",
+      "version": "1.6.48",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "onPreInit"
-      ],
+      "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.0.20",
+        "version": "1.6.48",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -703,44 +828,32 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
             "name": "async",
             "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
           },
           {
             "name": "bluebird",
             "version": "^3.5.0"
           },
           {
-            "name": "fs-exists-cached",
-            "version": "^1.0.0"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^7.0.0"
-          },
-          {
             "name": "imagemin",
-            "version": "^6.0.0"
-          },
-          {
-            "name": "imagemin-mozjpeg",
-            "version": "^8.0.0"
+            "version": "^5.2.2"
           },
           {
             "name": "imagemin-pngquant",
-            "version": "^6.0.0"
+            "version": "5.0.1"
           },
           {
             "name": "imagemin-webp",
-            "version": "^5.0.0"
+            "version": "^4.0.0"
           },
           {
             "name": "lodash",
-            "version": "^4.17.10"
+            "version": "^4.17.4"
           },
           {
             "name": "mini-svg-data-uri",
@@ -760,7 +873,7 @@
           },
           {
             "name": "sharp",
-            "version": "^0.21.3"
+            "version": "^0.20.0"
           },
           {
             "name": "svgo",
@@ -769,323 +882,172 @@
         ],
         "devDependencies": [
           {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "name": "babel-cli",
+            "version": "^6.26.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.1.4"
+            "version": "^5.0.5"
           }
         ],
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^2.0.0"
+            "version": "^1.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0fe1761ce1efbfaeca34747d6d6593ec",
+        "contentDigest": "4c83ece311302fefa95f00ca94f4926a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "cf827ca4-beff-57bd-a41e-2f5b6cb60484": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-manifest",
-      "id": "cf827ca4-beff-57bd-a41e-2f5b6cb60484",
-      "name": "gatsby-plugin-manifest",
-      "version": "2.0.17",
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
       "pluginOptions": {
-        "plugins": [],
-        "name": "Adam H",
-        "short_name": "Adam",
-        "description": "Playful & Colorful One-Page website with Parallax effect",
-        "start_url": "/",
-        "background_color": "#a0d8f1",
-        "theme_color": "#e07628",
-        "display": "standalone",
-        "icons": [
-          {
-            "src": "/favicons/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-          },
-          {
-            "src": "/favicons/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-          }
-        ]
+        "plugins": []
       },
-      "nodeAPIs": [
-        "onPostBootstrap"
-      ],
+      "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-manifest",
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
-        "name": "gatsby-plugin-manifest",
-        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
-        "version": "2.0.17",
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
         "main": "index.js",
         "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "favicon",
-          "icons",
-          "manifest.webmanifest",
-          "progressive-web-app",
-          "pwa"
+          "gatsby"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
         "license": "MIT",
         "dependencies": [
           {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
+            "name": "babel-runtime",
+            "version": "^6.26.0"
           },
           {
-            "name": "bluebird",
-            "version": "^3.5.0"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.21.3"
+            "name": "react-helmet",
+            "version": "^5.1.3"
           }
         ],
         "devDependencies": [
           {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "name": "babel-cli",
+            "version": "^6.26.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.1.4"
+            "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          }
-        ],
+        "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7201494844507c30f9e71b672c76d707",
+        "contentDigest": "e2911d220266e75c8615e3cd406c0a98",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-offline",
-      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "name": "gatsby-plugin-offline",
-      "version": "2.0.23",
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [
-        "createPages",
-        "onPostBuild"
-      ],
-      "browserAPIs": [
-        "registerServiceWorker",
-        "onServiceWorkerActive",
-        "onPostPrefetchPathname"
-      ],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-offline",
-      "packageJson": {
-        "name": "gatsby-plugin-offline",
-        "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "2.0.23",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "offline",
-          "precache",
-          "service-worker"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cheerio",
-            "version": "^1.0.0-rc.2"
-          },
-          {
-            "name": "cpx",
-            "version": "^1.5.0"
-          },
-          {
-            "name": "idb-keyval",
-            "version": "^3.1.0"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "workbox-build",
-            "version": "^3.6.3"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.100"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "43d89d376e02ed08efd9d356b4eb1cbd",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "54e3ea36-236a-5532-9628-10debfd8525c": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-netlify",
-      "id": "54e3ea36-236a-5532-9628-10debfd8525c",
-      "name": "gatsby-plugin-netlify",
-      "version": "2.0.11",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreateWebpackConfig",
-        "onPostBuild"
+        "modifyWebpackConfig"
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-netlify",
+      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sass",
       "packageJson": {
-        "name": "gatsby-plugin-netlify",
-        "description": "A Gatsby plugin which generates a _headers file for netlify",
-        "version": "2.0.11",
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
-          "http/2-server-push",
-          "netlify"
+          "sass",
+          "scss"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": "Daniel Farrell <daniel@mobelux.com>",
         "license": "MIT",
         "dependencies": [
           {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
+            "name": "babel-runtime",
+            "version": "^6.26.0"
           },
           {
-            "name": "fs-extra",
-            "version": "^4.0.2"
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
           },
           {
-            "name": "kebab-hash",
-            "version": "^0.1.2"
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
           },
           {
-            "name": "lodash",
-            "version": "^4.17.10"
+            "name": "node-sass",
+            "version": "^4.5.2"
           },
           {
-            "name": "webpack-assets-manifest",
-            "version": "^3.0.2"
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
           }
         ],
         "devDependencies": [
           {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "name": "babel-cli",
+            "version": "^6.26.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.1.4"
+            "version": "^5.0.5"
           }
         ],
         "peerDependencies": [
           {
             "name": "gatsby",
-            "version": "^2.0.0"
+            "version": "^1.0.0"
           }
         ],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f28c2e7909b85747238dc1452d506295",
+        "contentDigest": "16f8ece51ef632d4482aea08755fc786",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+    "Plugin default-site-plugin": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio",
-      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "61622abb2ac0074d38966b0400e30177",
+      "version": "282642b8d371ba8d3cbdb504d891591f",
       "pluginOptions": {
         "plugins": []
       },
@@ -1094,161 +1056,112 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio",
       "packageJson": {
-        "name": "gatsby-starter-portfolio-cara",
-        "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
-        "version": "3.0.0",
+        "name": "gatsby-starter-ceevee",
+        "description": "Gatsby Starter - CeeVee ",
+        "version": "1.0.1",
+        "main": "n/a",
         "keywords": [
-          "gatsby",
-          "starter",
-          "portfolio"
+          "gatsby"
         ],
-        "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+        "author": "Aman Mittal <amandeepmittal@live.com>",
         "license": "MIT",
         "dependencies": [
           {
-            "name": "babel-plugin-styled-components",
-            "version": "^1.10.0"
-          },
-          {
             "name": "gatsby",
-            "version": "^2.1.4"
+            "version": "^1.9.145"
           },
           {
-            "name": "gatsby-image",
-            "version": "^2.0.29"
+            "name": "gatsby-link",
+            "version": "^1.6.32"
           },
           {
             "name": "gatsby-plugin-google-analytics",
-            "version": "^2.0.14"
+            "version": "^1.0.12"
           },
           {
-            "name": "gatsby-plugin-manifest",
-            "version": "^2.0.17"
-          },
-          {
-            "name": "gatsby-plugin-netlify",
-            "version": "^2.0.11"
-          },
-          {
-            "name": "gatsby-plugin-offline",
-            "version": "^2.0.23"
+            "name": "gatsby-plugin-google-fonts",
+            "version": "0.0.3"
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^3.0.6"
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.14"
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.0.20"
+            "version": "^1.6.21"
           },
           {
-            "name": "gatsby-plugin-styled-components",
-            "version": "^3.0.5"
+            "name": "gatsby-plugin-typography",
+            "version": "1.7.10"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.9"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.33"
           },
           {
             "name": "gatsby-source-filesystem",
-            "version": "^2.0.20"
+            "version": "^1.5.8"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.21"
           },
           {
             "name": "gatsby-transformer-sharp",
-            "version": "^2.1.13"
+            "version": "^1.6.14"
           },
           {
-            "name": "prop-types",
-            "version": "^15.7.2"
+            "name": "node-sass",
+            "version": "^4.9.4"
           },
           {
-            "name": "react",
-            "version": "^16.8.2"
+            "name": "react-icons",
+            "version": "3.3.0"
           },
           {
-            "name": "react-dom",
-            "version": "^16.8.2"
+            "name": "react-slick",
+            "version": "0.16.0"
           },
           {
-            "name": "react-helmet",
-            "version": "^5.2.0"
+            "name": "slick-carousel",
+            "version": "1.8.1"
           },
           {
-            "name": "react-spring",
-            "version": "^8.0.7"
-          },
-          {
-            "name": "styled-components",
-            "version": "^4.1.3"
-          },
-          {
-            "name": "tailwind.macro",
-            "version": "^0.5.10"
-          },
-          {
-            "name": "tailwindcss",
-            "version": "^0.7.4"
-          },
-          {
-            "name": "typeface-cantata-one",
-            "version": "^0.0.54"
-          },
-          {
-            "name": "typeface-open-sans",
-            "version": "^0.0.54"
+            "name": "typography-theme-bootstrap",
+            "version": "0.16.7"
           }
         ],
         "devDependencies": [
           {
-            "name": "babel-eslint",
-            "version": "^10.0.1"
-          },
-          {
-            "name": "eslint",
-            "version": "^5.14.0"
-          },
-          {
-            "name": "eslint-config-airbnb",
-            "version": "^17.1.0"
-          },
-          {
-            "name": "eslint-config-prettier",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "eslint-plugin-import",
-            "version": "^2.16.0"
-          },
-          {
-            "name": "eslint-plugin-jsx-a11y",
-            "version": "^6.2.1"
-          },
-          {
-            "name": "eslint-plugin-prettier",
-            "version": "^3.0.1"
-          },
-          {
-            "name": "eslint-plugin-react",
-            "version": "^7.12.4"
-          },
-          {
             "name": "prettier",
-            "version": "^1.16.4"
+            "version": "^1.9.2"
           }
         ],
         "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c2ed5e5010ad12e63455f33b6234c00e",
+        "contentDigest": "b0d7166888beec2a9ea2007a4b2b9e25",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "3446de15-7e8b-5d77-bd56-29de770cb676": {
+    "Plugin gatsby-plugin-page-creator": {
       "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-page-creator",
-      "id": "3446de15-7e8b-5d77-bd56-29de770cb676",
+      "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.6",
+      "version": "1.0.1",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages",
@@ -1263,7 +1176,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.6",
+        "version": "1.0.1",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1273,8 +1186,8 @@
         "license": "MIT",
         "dependencies": [
           {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
+            "name": "babel-runtime",
+            "version": "^6.26.0"
           },
           {
             "name": "bluebird",
@@ -1285,20 +1198,12 @@
             "version": "^1.7.0"
           },
           {
-            "name": "fs-exists-cached",
-            "version": "^1.0.0"
-          },
-          {
             "name": "glob",
             "version": "^7.1.1"
           },
           {
             "name": "lodash",
-            "version": "^4.17.10"
-          },
-          {
-            "name": "micromatch",
-            "version": "^3.1.10"
+            "version": "^4.17.4"
           },
           {
             "name": "parse-filepath",
@@ -1311,127 +1216,204 @@
         ],
         "devDependencies": [
           {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "name": "babel-cli",
+            "version": "^6.26.0"
           },
           {
             "name": "cross-env",
             "version": "^5.0.5"
           }
         ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": "^2.0.0"
-          }
-        ],
+        "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
       },
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "34effc668c8796cf487820d3a85e0700",
+        "contentDigest": "41c25150f90a9bff6e869bf1b98c6a4c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "siteUrl": "https://adamhinckley.com"
+        "title": "Adam Hinckley",
+        "author": "Adam Hinckley",
+        "description": "Portfolio for Adam Hinckley"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-26T22:54:27.388Z",
+      "buildTime": "2019-03-11T17:02:03.465Z",
       "id": "Site",
-      "parent": null,
+      "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7996f16186ead6132995cd4167e03214",
+        "contentDigest": "62afa4d53010a8d073bdfa45926f6e29",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "9c558461-dd83-59e3-b0ef-3e05270203eb": {
-      "id": "9c558461-dd83-59e3-b0ef-3e05270203eb",
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images absPath of file",
       "children": [],
-      "parent": null,
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "45f043f3a9de0f1160f95d615a2ae5b1",
+        "contentDigest": "09f5650cd0ac010fdf8f860179355727",
         "type": "Directory",
-        "description": "Directory \"src/images\"",
+        "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images/",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
       "relativePath": "",
       "extension": "",
-      "size": 160,
-      "prettySize": "160 B",
-      "modifiedTime": "2019-02-21T23:32:41.432Z",
-      "accessTime": "2019-02-26T22:54:33.606Z",
-      "changeTime": "2019-02-22T02:24:45.581Z",
-      "birthTime": "2019-02-18T07:58:00.000Z",
+      "size": 416,
+      "prettySize": "416 B",
+      "modifiedTime": "2019-02-27T02:35:58.259Z",
+      "accessTime": "2019-03-11T17:02:14.735Z",
+      "changeTime": "2019-02-27T02:35:58.259Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
       "root": "/",
-      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets",
       "base": "images",
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 13,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 22930900,
+      "ino": 23256673,
       "blocks": 0,
-      "atimeMs": 1551221673606.3745,
-      "mtimeMs": 1550791961432.3572,
-      "ctimeMs": 1550802285581.2214,
-      "birthtimeMs": 1550476680000,
-      "atime": "2019-02-26T22:54:33.606Z",
-      "mtime": "2019-02-21T23:32:41.432Z",
-      "ctime": "2019-02-22T02:24:45.581Z",
-      "birthtime": "2019-02-18T07:58:00.000Z"
+      "atimeMs": 1552323734735.4917,
+      "mtimeMs": 1551234958259.0205,
+      "ctimeMs": 1551234958259.0205,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-03-11T17:02:14.735Z",
+      "mtime": "2019-02-27T02:35:58.259Z",
+      "ctime": "2019-02-27T02:35:58.259Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
     },
-    "56cefb1e-0829-51d6-8025-19b01e27e514": {
-      "id": "56cefb1e-0829-51d6-8025-19b01e27e514",
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio absPath of file",
       "children": [],
-      "parent": null,
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9bec4885c09a08972dd775e16122acaf",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/triangle.svg\"",
+        "contentDigest": "de4530f7c9e78c88c35cec17e017bd18",
+        "type": "Directory",
+        "description": "Directory \"src/assets/images/portfolio\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images/triangle.svg",
-      "relativePath": "triangle.svg",
-      "extension": "svg",
-      "size": 259,
-      "prettySize": "259 B",
-      "modifiedTime": "2019-02-18T07:58:00.000Z",
-      "accessTime": "2019-02-25T15:26:59.218Z",
-      "changeTime": "2019-02-22T02:24:46.837Z",
-      "birthTime": "2019-02-18T07:58:00.000Z",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "relativePath": "portfolio",
+      "extension": "",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-03-11T17:02:14.741Z",
+      "changeTime": "2019-02-27T02:16:37.375Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
       "root": "/",
-      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images",
-      "base": "triangle.svg",
-      "ext": ".svg",
-      "name": "triangle",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "portfolio",
+      "ext": "",
+      "name": "portfolio",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256679,
+      "blocks": 0,
+      "atimeMs": 1552323734741.302,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551233797375.2114,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-03-11T17:02:14.741Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T02:16:37.375Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "62428f5362e22c4e795eaa27735482b0",
+        "type": "Directory",
+        "description": "Directory \"src/assets/images/portfolio/modals\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "relativePath": "portfolio/modals",
+      "extension": "",
+      "size": 320,
+      "prettySize": "320 B",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-03-11T17:02:14.744Z",
+      "changeTime": "2019-02-27T02:16:38.513Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "modals",
+      "ext": "",
+      "name": "modals",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 10,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256686,
+      "blocks": 0,
+      "atimeMs": 1552323734743.9453,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551233798512.7314,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-03-11T17:02:14.744Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T02:16:38.513Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/.DS_Store absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "05bd9b0a0a935d6baadce5313ec54de8",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "description": "File \"src/assets/images/.DS_Store\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/.DS_Store",
+      "relativePath": ".DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-07T03:18:32.000Z",
+      "changeTime": "2019-02-27T00:36:42.102Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33261,
@@ -1440,45 +1422,1401 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 22930902,
-      "blocks": 8,
-      "atimeMs": 1551108419217.9817,
-      "mtimeMs": 1550476680000,
-      "ctimeMs": 1550802286836.565,
-      "birthtimeMs": 1550476680000,
-      "atime": "2019-02-25T15:26:59.218Z",
-      "mtime": "2019-02-18T07:58:00.000Z",
-      "ctime": "2019-02-22T02:24:46.837Z",
-      "birthtime": "2019-02-18T07:58:00.000Z"
+      "ino": 23256674,
+      "blocks": 16,
+      "atimeMs": 1549509512000,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.1167,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-07T03:18:32.000Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.102Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
     },
-    "39252ebd-1871-5be5-9c18-8da06f63be7d": {
-      "id": "39252ebd-1871-5be5-9c18-8da06f63be7d",
-      "children": [
-        "d45e085d-8f78-5b6d-9891-d94e3eeeaca4"
-      ],
-      "parent": null,
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/loader.gif absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/loader.gif absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
+        "contentDigest": "b41bfcf37a8a365d2c101c9931bc0e75",
+        "mediaType": "image/gif",
         "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/avatar.jpg\"",
+        "description": "File \"src/assets/images/loader.gif\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images/avatar.jpg",
-      "relativePath": "avatar.jpg",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/loader.gif",
+      "relativePath": "loader.gif",
+      "extension": "gif",
+      "size": 3256,
+      "prettySize": "3.26 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.450Z",
+      "changeTime": "2019-02-27T00:36:42.102Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "loader.gif",
+      "ext": ".gif",
+      "name": "loader",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256676,
+      "blocks": 8,
+      "atimeMs": 1551232366450.0127,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.193,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.450Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.102Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9176109b8b53b0cd9be8b698b720be5e",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/overlay-bg.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png",
+      "relativePath": "overlay-bg.png",
+      "extension": "png",
+      "size": 935,
+      "prettySize": "935 B",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.450Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "overlay-bg.png",
+      "ext": ".png",
+      "name": "overlay-bg",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256677,
+      "blocks": 8,
+      "atimeMs": 1551232366450.0308,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802103.4226,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.450Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-zoom.png absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-zoom.png absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a7d6622a9770d821ce7244048eb81b4c",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/overlay-zoom.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-zoom.png",
+      "relativePath": "overlay-zoom.png",
+      "extension": "png",
+      "size": 2824,
+      "prettySize": "2.82 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.450Z",
+      "changeTime": "2019-02-27T00:36:42.102Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "overlay-zoom.png",
+      "ext": ".png",
+      "name": "overlay-zoom",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256678,
+      "blocks": 8,
+      "atimeMs": 1551232366450.0442,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.0774,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.450Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.102Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepic.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepic.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepic.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7e773edecdc38561e4d4bcd2606811f3",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/profilepic.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepic.jpg",
+      "relativePath": "profilepic.jpg",
+      "extension": "jpg",
+      "size": 6766,
+      "prettySize": "6.77 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.450Z",
+      "changeTime": "2019-02-27T00:36:42.102Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "profilepic.jpg",
+      "ext": ".jpg",
+      "name": "profilepic",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256697,
+      "blocks": 16,
+      "atimeMs": 1551232366450.0725,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.1555,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.450Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.102Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/sample-image.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/sample-image.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/sample-image.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a6a76c7e087849f9223e1839338779e9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/sample-image.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/sample-image.jpg",
+      "relativePath": "sample-image.jpg",
+      "extension": "jpg",
+      "size": 26133,
+      "prettySize": "26.1 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.450Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "sample-image.jpg",
+      "ext": ".jpg",
+      "name": "sample-image",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256699,
+      "blocks": 56,
+      "atimeMs": 1551232366450.11,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802103.365,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.450Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9a5510b73fa8e35066c047347b3e02e3",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/modals/m-coffee.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-coffee.jpg",
+      "relativePath": "portfolio/modals/m-coffee.jpg",
+      "extension": "jpg",
+      "size": 59618,
+      "prettySize": "59.6 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.462Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "base": "m-coffee.jpg",
+      "ext": ".jpg",
+      "name": "m-coffee",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256687,
+      "blocks": 120,
+      "atimeMs": 1551232366462.4534,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802103.0518,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.462Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/coffee.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/coffee.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "de06f5d908fc33bb083d947ca23d0a7f",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/coffee.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/coffee.jpg",
+      "relativePath": "portfolio/coffee.jpg",
+      "extension": "jpg",
+      "size": 75261,
+      "prettySize": "75.3 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.459Z",
+      "changeTime": "2019-02-27T00:36:42.102Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "coffee.jpg",
+      "ext": ".jpg",
+      "name": "coffee",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256680,
+      "blocks": 152,
+      "atimeMs": 1551232366459.3457,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.4912,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.459Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.102Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file",
+      "internal": {
+        "contentDigest": "9176109b8b53b0cd9be8b698b720be5e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-zoom.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-zoom.png absPath of file",
+      "internal": {
+        "contentDigest": "a7d6622a9770d821ce7244048eb81b4c",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepic.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepic.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepic.jpg absPath of file",
+      "internal": {
+        "contentDigest": "7e773edecdc38561e4d4bcd2606811f3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/sample-image.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/sample-image.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/sample-image.jpg absPath of file",
+      "internal": {
+        "contentDigest": "a6a76c7e087849f9223e1839338779e9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "10a557caba8bdbb1f030609c669e4314",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/console.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg",
+      "relativePath": "portfolio/console.jpg",
+      "extension": "jpg",
+      "size": 104406,
+      "prettySize": "104 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.459Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "console.jpg",
+      "ext": ".jpg",
+      "name": "console",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256681,
+      "blocks": 208,
+      "atimeMs": 1551232366459.3574,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802103.1016,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.459Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/into-the-light.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/into-the-light.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3445f11c05b5a0608b39f3b2cbb0bbf4",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/into-the-light.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/into-the-light.jpg",
+      "relativePath": "portfolio/into-the-light.jpg",
+      "extension": "jpg",
+      "size": 102255,
+      "prettySize": "102 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.459Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "into-the-light.jpg",
+      "ext": ".jpg",
+      "name": "into-the-light",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256684,
+      "blocks": 200,
+      "atimeMs": 1551232366459.4636,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.5918,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.459Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/origami.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/origami.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5bb3df6308eaa82bdf74a53d339f6b86",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/origami.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/origami.jpg",
+      "relativePath": "portfolio/origami.jpg",
+      "extension": "jpg",
+      "size": 83530,
+      "prettySize": "83.5 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.460Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "origami.jpg",
+      "ext": ".jpg",
+      "name": "origami",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256695,
+      "blocks": 168,
+      "atimeMs": 1551232366459.5847,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802103.173,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.460Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f20aeacdaa64a9eb8f9eef9554245d48",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/modals/m-intothelight.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-intothelight.jpg",
+      "relativePath": "portfolio/modals/m-intothelight.jpg",
+      "extension": "jpg",
+      "size": 112530,
+      "prettySize": "113 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.463Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "base": "m-intothelight.jpg",
+      "ext": ".jpg",
+      "name": "m-intothelight",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256691,
+      "blocks": 224,
+      "atimeMs": 1551232366462.9001,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.8555,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.463Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-origami.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-origami.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "0f03a9bee6e8f1f6b48007d6c096dad9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/modals/m-origami.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-origami.jpg",
+      "relativePath": "portfolio/modals/m-origami.jpg",
+      "extension": "jpg",
+      "size": 77689,
+      "prettySize": "77.7 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.463Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "base": "m-origami.jpg",
+      "ext": ".jpg",
+      "name": "m-origami",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256693,
+      "blocks": 152,
+      "atimeMs": 1551232366462.9128,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.8955,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.463Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/farmerboy.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/farmerboy.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "ac51137c942715b7decebd1e166080df",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/farmerboy.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/farmerboy.jpg",
+      "relativePath": "portfolio/farmerboy.jpg",
+      "extension": "jpg",
+      "size": 190044,
+      "prettySize": "190 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.459Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "farmerboy.jpg",
+      "ext": ".jpg",
+      "name": "farmerboy",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256682,
+      "blocks": 376,
+      "atimeMs": 1551232366459.393,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.5276,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.459Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-coffee.jpg absPath of file",
+      "internal": {
+        "contentDigest": "9a5510b73fa8e35066c047347b3e02e3",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/coffee.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/coffee.jpg absPath of file",
+      "internal": {
+        "contentDigest": "de06f5d908fc33bb083d947ca23d0a7f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-console.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-console.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dc53e451be2267be73395b7022b23956",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/modals/m-console.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-console.jpg",
+      "relativePath": "portfolio/modals/m-console.jpg",
+      "extension": "jpg",
+      "size": 195994,
+      "prettySize": "196 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.462Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "base": "m-console.jpg",
+      "ext": ".jpg",
+      "name": "m-console",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256688,
+      "blocks": 384,
+      "atimeMs": 1551232366462.487,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.8162,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.462Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/retrocam.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/retrocam.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "522192d97b644075d576df8f7f58f3a0",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/retrocam.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/retrocam.jpg",
+      "relativePath": "portfolio/retrocam.jpg",
+      "extension": "jpg",
+      "size": 176219,
+      "prettySize": "176 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.460Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "retrocam.jpg",
+      "ext": ".jpg",
+      "name": "retrocam",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256696,
+      "blocks": 352,
+      "atimeMs": 1551232366459.5918,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.559,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.460Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "93070f5f3044ad1605d18fe72b5ace23",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/profilepicbill.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg",
+      "relativePath": "profilepicbill.jpeg",
+      "extension": "jpeg",
+      "size": 209281,
+      "prettySize": "209 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:40:36.810Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "profilepicbill.jpeg",
+      "ext": ".jpeg",
+      "name": "profilepicbill",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256698,
+      "blocks": 416,
+      "atimeMs": 1551231636809.765,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802103.238,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:40:36.810Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg absPath of file",
+      "internal": {
+        "contentDigest": "10a557caba8bdbb1f030609c669e4314",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/into-the-light.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/into-the-light.jpg absPath of file",
+      "internal": {
+        "contentDigest": "3445f11c05b5a0608b39f3b2cbb0bbf4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/origami.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/origami.jpg absPath of file",
+      "internal": {
+        "contentDigest": "5bb3df6308eaa82bdf74a53d339f6b86",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-intothelight.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f20aeacdaa64a9eb8f9eef9554245d48",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-origami.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-origami.jpg absPath of file",
+      "internal": {
+        "contentDigest": "0f03a9bee6e8f1f6b48007d6c096dad9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/farmerboy.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/farmerboy.jpg absPath of file",
+      "internal": {
+        "contentDigest": "ac51137c942715b7decebd1e166080df",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/judah.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/judah.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f5bf96d39756b9a7267076a3b81a5e98",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/judah.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/judah.jpg",
+      "relativePath": "portfolio/judah.jpg",
+      "extension": "jpg",
+      "size": 197288,
+      "prettySize": "197 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.460Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "judah.jpg",
+      "ext": ".jpg",
+      "name": "judah",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256685,
+      "blocks": 392,
+      "atimeMs": 1551232366459.5103,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.6655,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.460Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/girl.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/girl.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a95478b7f3fbeb159495ca2d36a6ccb7",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/girl.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/girl.jpg",
+      "relativePath": "portfolio/girl.jpg",
+      "extension": "jpg",
+      "size": 150080,
+      "prettySize": "150 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.459Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio",
+      "base": "girl.jpg",
+      "ext": ".jpg",
+      "name": "girl",
+      "relativeDirectory": "portfolio",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256683,
+      "blocks": 296,
+      "atimeMs": 1551232366459.4275,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.6335,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.459Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "91b65a93128ed7ef064fad7cdf859e69",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/modals/m-retrocam.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-retrocam.jpg",
+      "relativePath": "portfolio/modals/m-retrocam.jpg",
+      "extension": "jpg",
+      "size": 214981,
+      "prettySize": "215 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.463Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "base": "m-retrocam.jpg",
+      "ext": ".jpg",
+      "name": "m-retrocam",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256694,
+      "blocks": 424,
+      "atimeMs": 1551232366462.919,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.9778,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.463Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-girl.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-girl.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cca489424290988698ceb5e8c5552189",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/modals/m-girl.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-girl.jpg",
+      "relativePath": "portfolio/modals/m-girl.jpg",
+      "extension": "jpg",
+      "size": 231027,
+      "prettySize": "231 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.463Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "base": "m-girl.jpg",
+      "ext": ".jpg",
+      "name": "m-girl",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256690,
+      "blocks": 456,
+      "atimeMs": 1551232366462.88,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.9358,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.463Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-console.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-console.jpg absPath of file",
+      "internal": {
+        "contentDigest": "dc53e451be2267be73395b7022b23956",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/retrocam.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/retrocam.jpg absPath of file",
+      "internal": {
+        "contentDigest": "522192d97b644075d576df8f7f58f3a0",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file",
+      "internal": {
+        "contentDigest": "93070f5f3044ad1605d18fe72b5ace23",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/judah.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/judah.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f5bf96d39756b9a7267076a3b81a5e98",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/girl.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/girl.jpg absPath of file",
+      "internal": {
+        "contentDigest": "a95478b7f3fbeb159495ca2d36a6ccb7",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-retrocam.jpg absPath of file",
+      "internal": {
+        "contentDigest": "91b65a93128ed7ef064fad7cdf859e69",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-girl.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-girl.jpg absPath of file",
+      "internal": {
+        "contentDigest": "cca489424290988698ceb5e8c5552189",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "38ce1edce458e6aa5b93aae738cd8caa",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/modals/m-farmerboy.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-farmerboy.jpg",
+      "relativePath": "portfolio/modals/m-farmerboy.jpg",
+      "extension": "jpg",
+      "size": 252567,
+      "prettySize": "253 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.462Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "base": "m-farmerboy.jpg",
+      "ext": ".jpg",
+      "name": "m-farmerboy",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256689,
+      "blocks": 496,
+      "atimeMs": 1551232366462.4937,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802103.015,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.462Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-judah.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-judah.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d0599ca57ac4b7531f0d4c30fdc7a2b9",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/portfolio/modals/m-judah.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-judah.jpg",
+      "relativePath": "portfolio/modals/m-judah.jpg",
+      "extension": "jpg",
+      "size": 296894,
+      "prettySize": "297 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.463Z",
+      "changeTime": "2019-02-27T00:36:42.103Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals",
+      "base": "m-judah.jpg",
+      "ext": ".jpg",
+      "name": "m-judah",
+      "relativeDirectory": "portfolio/modals",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256692,
+      "blocks": 584,
+      "atimeMs": 1551232366462.9067,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.7756,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.463Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.103Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-farmerboy.jpg absPath of file",
+      "internal": {
+        "contentDigest": "38ce1edce458e6aa5b93aae738cd8caa",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-judah.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/modals/m-judah.jpg absPath of file",
+      "internal": {
+        "contentDigest": "d0599ca57ac4b7531f0d4c30fdc7a2b9",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/header-background.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/header-background.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/header-background.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "395df93f3a2d8a841031e95505e05fa4",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/header-background.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/header-background.jpg",
+      "relativePath": "header-background.jpg",
+      "extension": "jpg",
+      "size": 534867,
+      "prettySize": "535 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.450Z",
+      "changeTime": "2019-02-27T00:36:42.102Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "header-background.jpg",
+      "ext": ".jpg",
+      "name": "header-background",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256675,
+      "blocks": 1048,
+      "atimeMs": 1551232366449.9973,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.265,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.450Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.102Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/header-background.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/header-background.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/header-background.jpg absPath of file",
+      "internal": {
+        "contentDigest": "395df93f3a2d8a841031e95505e05fa4",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/testimonials-bg.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/testimonials-bg.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f063209a66807e69329fada1e2590674",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/testimonials-bg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/testimonials-bg.jpg",
+      "relativePath": "testimonials-bg.jpg",
+      "extension": "jpg",
+      "size": 812011,
+      "prettySize": "812 kB",
+      "modifiedTime": "2019-02-07T03:18:32.000Z",
+      "accessTime": "2019-02-27T01:52:46.450Z",
+      "changeTime": "2019-02-27T00:36:42.102Z",
+      "birthTime": "2019-02-07T03:18:32.000Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "testimonials-bg.jpg",
+      "ext": ".jpg",
+      "name": "testimonials-bg",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33261,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23256700,
+      "blocks": 1592,
+      "atimeMs": 1551232366450.125,
+      "mtimeMs": 1549509512000,
+      "ctimeMs": 1551227802102.0337,
+      "birthtimeMs": 1549509512000,
+      "atime": "2019-02-27T01:52:46.450Z",
+      "mtime": "2019-02-07T03:18:32.000Z",
+      "ctime": "2019-02-27T00:36:42.102Z",
+      "birthtime": "2019-02-07T03:18:32.000Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/testimonials-bg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/testimonials-bg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "f063209a66807e69329fada1e2590674",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/adam-head-shot.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg",
+      "relativePath": "adam-head-shot.jpg",
       "extension": "jpg",
       "size": 686833,
       "prettySize": "687 kB",
-      "modifiedTime": "2019-02-21T23:31:03.919Z",
-      "accessTime": "2019-02-25T15:26:56.930Z",
-      "changeTime": "2019-02-22T02:24:46.708Z",
-      "birthTime": "2019-02-21T23:31:03.905Z",
+      "modifiedTime": "2019-02-27T02:35:58.260Z",
+      "accessTime": "2019-02-27T02:35:58.510Z",
+      "changeTime": "2019-02-27T02:35:58.261Z",
+      "birthTime": "2019-02-27T02:34:59.470Z",
       "root": "/",
-      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/images",
-      "base": "avatar.jpg",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "adam-head-shot.jpg",
       "ext": ".jpg",
-      "name": "avatar",
+      "name": "adam-head-shot",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1487,83 +2825,101 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 22979883,
+      "ino": 23319078,
       "blocks": 1344,
-      "atimeMs": 1551108416929.535,
-      "mtimeMs": 1550791863918.5146,
-      "ctimeMs": 1550802286707.5159,
-      "birthtimeMs": 1550791863904.855,
-      "atime": "2019-02-25T15:26:56.930Z",
-      "mtime": "2019-02-21T23:31:03.919Z",
-      "ctime": "2019-02-22T02:24:46.708Z",
-      "birthtime": "2019-02-21T23:31:03.905Z"
+      "atimeMs": 1551234958509.58,
+      "mtimeMs": 1551234958260,
+      "ctimeMs": 1551234958260.829,
+      "birthtimeMs": 1551234899470.303,
+      "atime": "2019-02-27T02:35:58.510Z",
+      "mtime": "2019-02-27T02:35:58.260Z",
+      "ctime": "2019-02-27T02:35:58.261Z",
+      "birthtime": "2019-02-27T02:34:59.470Z"
     },
-    "d45e085d-8f78-5b6d-9891-d94e3eeeaca4": {
-      "id": "d45e085d-8f78-5b6d-9891-d94e3eeeaca4",
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp",
       "children": [],
-      "parent": "39252ebd-1871-5be5-9c18-8da06f63be7d",
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file",
       "internal": {
         "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.jsx",
-      "componentChunkName": "component---src-pages-index-jsx",
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "3446de15-7e8b-5d77-bd56-29de770cb676",
-      "pluginCreatorId": "3446de15-7e8b-5d77-bd56-29de770cb676",
-      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.jsx",
-      "id": "SitePage /",
-      "parent": null,
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a2d8fcbc8ce86b0773d9a6bf7a75d310",
-        "description": "3446de15-7e8b-5d77-bd56-29de770cb676",
+        "contentDigest": "ba61c4beae90f31b2fb885c46637e054",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6c8e59466bc102ec3ddd388147cd0ce7",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "61261713e2a9ecfc3442ce289478d803",
+        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "9b64858354d15d21c34da8804260ad1b"
+    "PLUGINS_HASH": "92c1ccf7928cf8a4bb8f13d51d65120e"
   },
   "componentDataDependencies": {
-    "nodes": {
-      "Site": [
-        "sq--src-components-seo-jsx"
+    "nodes": {},
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
       ]
-    },
-    "connections": {}
-  },
-  "jsonDataPaths": {
-    "sq--src-components-seo-jsx": 77616083,
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
-  },
-  "components": {
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js"
-    },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.jsx": {
-      "query": "",
-      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.jsx"
-    }
-  },
-  "staticQueryComponents": {
-    "sq--src-components-seo-jsx": {
-      "name": "SEO",
-      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/components/SEO.jsx",
-      "id": "sq--src-components-seo-jsx",
-      "jsonName": "sq--src-components-seo-jsx",
-      "query": "query SEO {\n  site {\n    buildTime(formatString: \"YYYY-MM-DD\")\n  }\n}\n",
-      "hash": 77616083
     }
   }
 }
