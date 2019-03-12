@@ -27,7 +27,10 @@ const Portfolio = () => (
                 <h1>Check Out Some of My Projects</h1>
             </div>
             <div className="projects-container">
-                <div className="project" />
+                <div className="project">
+                    <h1>Cadence</h1>
+                </div>
+
                 <div className="project" />
             </div>
         </div>

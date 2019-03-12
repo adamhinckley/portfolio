@@ -1393,7 +1393,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-    color: #11abb0;
+    color: teal;
 }
 
 #about h2 {
@@ -1463,7 +1463,7 @@ ul#nav li.current a {
     letter-spacing: 1px;
 }
 #resume h1 span {
-    border-bottom: 3px solid #11abb0;
+    border-bottom: 3px solid teal;
     padding-bottom: 6px;
 }
 #resume h3 {
@@ -1503,7 +1503,7 @@ ul#nav li.current a {
     display: flex;
     justify-content: space-between;
     height: 50px;
-    color: green;
+    color: teal;
 }
 
 .html5 {
