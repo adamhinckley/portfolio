@@ -1654,13 +1654,36 @@ ul#nav li.current a {
 }
 
 /* Portfolio Content */
+.projects-container {
+    display: flex;
+    width: 96%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.project {
+    width: 350px;
+    height: 200px;
+    background: #5360d7;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.project-image {
+    width: 200px;
+    border: 1px solid yellow;
+}
+
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
+    border: 1px solid red;
 }
 .portfolio-item .item-wrap {
     background: #fff;
     overflow: hidden;
     position: relative;
+    border: 1px solid blue;
 
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;

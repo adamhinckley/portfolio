@@ -12,8 +12,8 @@ const About = () => (
             <div className="nine columns main-col">
                 <h2>Hey There!</h2>
                 <p>
-                    I'm a former life insurance agency owner that found a love for web development after creating
-                    underwriting solutions for the agents I worked with.
+                    I'm a former life insurance agency owner that found a love for web development after creating web
+                    based underwriting solutions for the agents I worked with.
                 </p>
                 <div className="row">
                     <div className="columns contact-details">

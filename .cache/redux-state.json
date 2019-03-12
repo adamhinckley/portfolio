@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "000faa0664093237779ca39c55f6ac33",
+        "contentDigest": "491b7e581ba7bac95665093a254f7282",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1246,12 +1246,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-11T17:02:03.465Z",
+      "buildTime": "2019-03-12T05:37:31.334Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "62afa4d53010a8d073bdfa45926f6e29",
+        "contentDigest": "7baf61c61dd674279f9fd4f5e81ff810",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1261,7 +1261,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "09f5650cd0ac010fdf8f860179355727",
+        "contentDigest": "5a795f82203f1a208623dd28591216ef",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1272,9 +1272,9 @@
       "extension": "",
       "size": 416,
       "prettySize": "416 B",
-      "modifiedTime": "2019-02-27T02:35:58.259Z",
-      "accessTime": "2019-03-11T17:02:14.735Z",
-      "changeTime": "2019-02-27T02:35:58.259Z",
+      "modifiedTime": "2019-03-12T05:05:28.710Z",
+      "accessTime": "2019-03-12T05:37:39.006Z",
+      "changeTime": "2019-03-12T05:05:28.710Z",
       "birthTime": "2019-02-07T03:18:32.000Z",
       "root": "/",
       "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets",
@@ -1291,13 +1291,13 @@
       "blksize": 4096,
       "ino": 23256673,
       "blocks": 0,
-      "atimeMs": 1552323734735.4917,
-      "mtimeMs": 1551234958259.0205,
-      "ctimeMs": 1551234958259.0205,
+      "atimeMs": 1552369059006.0928,
+      "mtimeMs": 1552367128710.3904,
+      "ctimeMs": 1552367128710.3904,
       "birthtimeMs": 1549509512000,
-      "atime": "2019-03-11T17:02:14.735Z",
-      "mtime": "2019-02-27T02:35:58.259Z",
-      "ctime": "2019-02-27T02:35:58.259Z",
+      "atime": "2019-03-12T05:37:39.006Z",
+      "mtime": "2019-03-12T05:05:28.710Z",
+      "ctime": "2019-03-12T05:05:28.710Z",
       "birthtime": "2019-02-07T03:18:32.000Z"
     },
     "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio absPath of file": {
@@ -1305,7 +1305,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "de4530f7c9e78c88c35cec17e017bd18",
+        "contentDigest": "0f4673773535c468fd2a39d14f93e168",
         "type": "Directory",
         "description": "Directory \"src/assets/images/portfolio\"",
         "owner": "gatsby-source-filesystem"
@@ -1317,7 +1317,7 @@
       "size": 352,
       "prettySize": "352 B",
       "modifiedTime": "2019-02-07T03:18:32.000Z",
-      "accessTime": "2019-03-11T17:02:14.741Z",
+      "accessTime": "2019-03-12T05:37:39.006Z",
       "changeTime": "2019-02-27T02:16:37.375Z",
       "birthTime": "2019-02-07T03:18:32.000Z",
       "root": "/",
@@ -1335,11 +1335,11 @@
       "blksize": 4096,
       "ino": 23256679,
       "blocks": 0,
-      "atimeMs": 1552323734741.302,
+      "atimeMs": 1552369059006.2688,
       "mtimeMs": 1549509512000,
       "ctimeMs": 1551233797375.2114,
       "birthtimeMs": 1549509512000,
-      "atime": "2019-03-11T17:02:14.741Z",
+      "atime": "2019-03-12T05:37:39.006Z",
       "mtime": "2019-02-07T03:18:32.000Z",
       "ctime": "2019-02-27T02:16:37.375Z",
       "birthtime": "2019-02-07T03:18:32.000Z"
@@ -1349,7 +1349,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "62428f5362e22c4e795eaa27735482b0",
+        "contentDigest": "7439097cee4646de6623e8e4899b85e3",
         "type": "Directory",
         "description": "Directory \"src/assets/images/portfolio/modals\"",
         "owner": "gatsby-source-filesystem"
@@ -1361,7 +1361,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2019-02-07T03:18:32.000Z",
-      "accessTime": "2019-03-11T17:02:14.744Z",
+      "accessTime": "2019-03-12T05:37:39.007Z",
       "changeTime": "2019-02-27T02:16:38.513Z",
       "birthTime": "2019-02-07T03:18:32.000Z",
       "root": "/",
@@ -1379,11 +1379,11 @@
       "blksize": 4096,
       "ino": 23256686,
       "blocks": 0,
-      "atimeMs": 1552323734743.9453,
+      "atimeMs": 1552369059006.7883,
       "mtimeMs": 1549509512000,
       "ctimeMs": 1551233798512.7314,
       "birthtimeMs": 1549509512000,
-      "atime": "2019-03-11T17:02:14.744Z",
+      "atime": "2019-03-12T05:37:39.007Z",
       "mtime": "2019-02-07T03:18:32.000Z",
       "ctime": "2019-02-27T02:16:38.513Z",
       "birthtime": "2019-02-07T03:18:32.000Z"
@@ -2196,53 +2196,6 @@
       "ctime": "2019-02-27T00:36:42.103Z",
       "birthtime": "2019-02-07T03:18:32.000Z"
     },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file": {
-      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file",
-      "children": [
-        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "93070f5f3044ad1605d18fe72b5ace23",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/assets/images/profilepicbill.jpeg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg",
-      "relativePath": "profilepicbill.jpeg",
-      "extension": "jpeg",
-      "size": 209281,
-      "prettySize": "209 kB",
-      "modifiedTime": "2019-02-07T03:18:32.000Z",
-      "accessTime": "2019-02-27T01:40:36.810Z",
-      "changeTime": "2019-02-27T00:36:42.103Z",
-      "birthTime": "2019-02-07T03:18:32.000Z",
-      "root": "/",
-      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
-      "base": "profilepicbill.jpeg",
-      "ext": ".jpeg",
-      "name": "profilepicbill",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33261,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23256698,
-      "blocks": 416,
-      "atimeMs": 1551231636809.765,
-      "mtimeMs": 1549509512000,
-      "ctimeMs": 1551227802103.238,
-      "birthtimeMs": 1549509512000,
-      "atime": "2019-02-27T01:40:36.810Z",
-      "mtime": "2019-02-07T03:18:32.000Z",
-      "ctime": "2019-02-27T00:36:42.103Z",
-      "birthtime": "2019-02-07T03:18:32.000Z"
-    },
     "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp": {
       "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/console.jpg absPath of file >> ImageSharp",
       "children": [],
@@ -2507,16 +2460,6 @@
       "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/portfolio/retrocam.jpg absPath of file",
       "internal": {
         "contentDigest": "522192d97b644075d576df8f7f58f3a0",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file >> ImageSharp": {
-      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/profilepicbill.jpeg absPath of file",
-      "internal": {
-        "contentDigest": "93070f5f3044ad1605d18fe72b5ace23",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -2846,6 +2789,63 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/logo2.png absPath of file": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/logo2.png absPath of file",
+      "children": [
+        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/logo2.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "45d870d818c3c6f065678e8f5e18a1b6",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/logo2.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/logo2.png",
+      "relativePath": "logo2.png",
+      "extension": "png",
+      "size": 10590,
+      "prettySize": "10.6 kB",
+      "modifiedTime": "2019-03-12T05:05:28.715Z",
+      "accessTime": "2019-03-12T05:05:28.950Z",
+      "changeTime": "2019-03-12T05:05:28.716Z",
+      "birthTime": "2019-03-12T05:05:28.710Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "base": "logo2.png",
+      "ext": ".png",
+      "name": "logo2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23741093,
+      "blocks": 24,
+      "atimeMs": 1552367128949.706,
+      "mtimeMs": 1552367128714.5522,
+      "ctimeMs": 1552367128715.6082,
+      "birthtimeMs": 1552367128710.359,
+      "atime": "2019-03-12T05:05:28.950Z",
+      "mtime": "2019-03-12T05:05:28.715Z",
+      "ctime": "2019-03-12T05:05:28.716Z",
+      "birthtime": "2019-03-12T05:05:28.710Z"
+    },
+    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/logo2.png absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/logo2.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/logo2.png absPath of file",
+      "internal": {
+        "contentDigest": "45d870d818c3c6f065678e8f5e18a1b6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /404/": {
       "layout": "index",
       "jsonName": "404.json",
@@ -2862,7 +2862,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ba61c4beae90f31b2fb885c46637e054",
+        "contentDigest": "168ee6ca34a525c30f9bc79f6ecc5354",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2883,7 +2883,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6c8e59466bc102ec3ddd388147cd0ce7",
+        "contentDigest": "703993c0465177f94920424be0b45720",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2904,7 +2904,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "61261713e2a9ecfc3442ce289478d803",
+        "contentDigest": "5c148ad6de5eca50bc3ee943000cd1a3",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }

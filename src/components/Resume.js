@@ -1,15 +1,13 @@
-import React from "react";
+import React from "react"
 
-import Education from "./Education";
-import Work from "./Work";
-import Skills from "./Skills";
+import Education from "./Education"
+import Skills from "./Skills"
 
 const Resume = () => (
-  <section id="resume">
-    <Work />
-    <Education />
-    <Skills />
-  </section>
-);
+    <section id="resume">
+        <Skills />
+        <Education />
+    </section>
+)
 
-export default Resume;
+export default Resume

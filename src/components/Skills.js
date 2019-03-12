@@ -4,7 +4,7 @@ import { IconContext } from "react-icons"
 import { FaHtml5, FaCss3, FaReact, FaJsSquare, FaNode, FaPython } from "react-icons/fa"
 
 const Skills = () => (
-    <div className="row skill">
+    <div className="row work">
         <div className="three columns header-col">
             <h1>
                 <span>Skills</span>
@@ -17,7 +17,6 @@ const Skills = () => (
             <FaJsSquare size={32} />
             <FaReact size={32} />
             <FaNode size={32} />
-            <FaPython size={32} />
         </div>
     </div>
 )
