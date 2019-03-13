@@ -1207,7 +1207,7 @@ body {
 
 header {
     position: relative;
-    height: 800px;
+    height: 100vh;
     min-height: 500px;
     width: 100%;
     /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
@@ -1224,6 +1224,7 @@ header:before {
     vertical-align: middle;
     height: 100%;
 }
+
 header .banner {
     display: inline-block;
     vertical-align: middle;
@@ -1444,7 +1445,6 @@ ul#nav li.current a {
 #resume {
     background: #fff;
     padding-top: 90px;
-    padding-bottom: 72px;
     overflow: hidden;
 }
 
@@ -1477,7 +1477,6 @@ ul#nav li.current a {
     padding-right: 10%;
 }
 
-.education,
 .work {
     margin-bottom: 48px;
     padding-bottom: 24px;
@@ -1641,40 +1640,77 @@ ul#nav li.current a {
 
 #portfolio {
     background: #ebeeee;
-    padding-top: 90px;
+    padding-top: 34px;
     padding-bottom: 60px;
 }
-#portfolio h1 {
+/* #portfolio h1 {
     font: 15px/24px "opensans-semibold", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
     color: #95a3a3;
-}
+} */
 
 /* Portfolio Content */
 .projects-container {
     display: flex;
     width: 96%;
     justify-content: space-around;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .project {
-    width: 350px;
+    width: 300px;
     height: 200px;
     background: #5360d7;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 20px 10px;
 }
 
-.project-image {
-    width: 200px;
-    border: 1px solid yellow;
+.project a {
+    color: white;
 }
 
+.project p {
+    color: white;
+}
+
+.project p br {
+    display: flex;
+    justify-content: center;
+}
+
+.project h1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.project-tagline {
+    display: flex;
+    justify-content: center;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    color: #838c95;
+}
+
+.project-title h1 {
+    color: #838c95;
+}
 #portfolio-wrapper .columns {
     margin-bottom: 36px;
     border: 1px solid red;
@@ -2638,6 +2674,10 @@ footer .social li:first-child {
         max-width: 85%;
     }
 
+    .project-title h1 {
+        font-size: 24px;
+    }
+
     /* Testimonials Section
  ----------------------------------------------------------------------- */
     #testimonials .text-container {
@@ -2756,6 +2796,15 @@ footer .social li:first-child {
     #nav-wrap ul#nav {
         width: auto;
         float: none;
+    }
+    /* portfolio
+-------------------------------------------------------------------- */
+    */ .projects-container {
+        flex-direction: row;
+    }
+
+    .project-title h1 {
+        font-size: 20px;
     }
 
     /* header styles
