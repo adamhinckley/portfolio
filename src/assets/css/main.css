@@ -1663,7 +1663,7 @@ ul#nav li.current a {
 .project {
     width: 300px;
     height: 200px;
-    background: #5360d7;
+    background: #2b2b2b;
     display: flex;
     justify-content: center;
     flex-direction: column;
