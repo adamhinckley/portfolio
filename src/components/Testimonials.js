@@ -1,5 +1,5 @@
-import React from "react"
-import Slider from "react-slick"
+import React from "react";
+import Slider from "react-slick";
 
 const settings = {
     dots: true,
@@ -9,7 +9,7 @@ const settings = {
     slideToShow: 1,
     slideToScroll: 1,
     swipeToSlide: true
-}
+};
 
 const Testimonials = () => (
     <section id="testimonials">
@@ -23,36 +23,75 @@ const Testimonials = () => (
                             <li>
                                 <blockquote>
                                     <p className="testimonial-font">
-                                        "I was project manager for Adam while he went through the Lambda School web
-                                        development curriculum, and then we worked together building out Cadence, a
-                                        full-stack shift scheduling web app. Adam was absolutely essential to our team!
-                                        He is hard working and is gung ho to attack any ticket, and will find the
-                                        resources needed to get the job done. <br /> He is thoughtful about user
-                                        experience, potential problems and bugs, and has an excellent eye for detail.
-                                        Oftentimes he noticed potential issues that no one else on the team did and
-                                        brought them to our attention. <br /> Adam is a solid developer to have in your
-                                        corner when you need to get things done right. And he's a pleasure to work
-                                        with!"
+                                        "I was project manager for Adam while he went
+                                        through the Lambda School web development
+                                        curriculum, and then we worked together building
+                                        out Cadence, a full-stack shift scheduling web
+                                        app. Adam was absolutely essential to our team! He
+                                        is hard working and is gung ho to attack any
+                                        ticket, and will find the resources needed to get
+                                        the job done. <br /> He is thoughtful about user
+                                        experience, potential problems and bugs, and has
+                                        an excellent eye for detail. Oftentimes he noticed
+                                        potential issues that no one else on the team did
+                                        and brought them to our attention. <br /> Adam is
+                                        a solid developer to have in your corner when you
+                                        need to get things done right. And he's a pleasure
+                                        to work with!"
                                     </p>
-                                    <cite>Kamry Bowman - Project Manager, Lambda School </cite>
+                                    <cite>
+                                        Kamry Bowman - Project Manager, Lambda School{" "}
+                                    </cite>
                                 </blockquote>
                             </li>
                             <li>
                                 <blockquote>
                                     <p>
-                                        I worked with Adam to build Cadence, a shift scheduling app for small
-                                        businesses. During that process, I discovered two things about Adam: <br />
-                                        1. He likes to take the bull by the horns, tackling some of the most difficult
-                                        problems set before us, including complicated testing and complex manipulation
-                                        of datetimes for our "Edit Availability" feature. <br /> 2. He is, above all
-                                        else, a gentleman. No matter how frustrating or insurmountable the obstacles
-                                        ahead seem, Adam is jovial and good-natured. He was a notable source of
-                                        positivity during our sprint. <br /> If you're reading this, know that you
-                                        should definitely hire Adam. He's not only a great developer, but also a great
-                                        person. His technical know-how and kind spirit would be a phenomenal addition to
-                                        any team.”
+                                        I worked with Adam to build Cadence, a shift
+                                        scheduling app for small businesses. During that
+                                        process, I discovered two things about Adam:{" "}
+                                        <br />
+                                        1. He likes to take the bull by the horns,
+                                        tackling some of the most difficult problems set
+                                        before us, including complicated testing and
+                                        complex manipulation of datetimes for our "Edit
+                                        Availability" feature. <br /> 2. He is, above all
+                                        else, a gentleman. No matter how frustrating or
+                                        insurmountable the obstacles ahead seem, Adam is
+                                        jovial and good-natured. He was a notable source
+                                        of positivity during our sprint. <br /> If you're
+                                        reading this, know that you should definitely hire
+                                        Adam. He's not only a great developer, but also a
+                                        great person. His technical know-how and kind
+                                        spirit would be a phenomenal addition to any
+                                        team.”
                                     </p>
-                                    <cite>Rahul Desai - Full Stack Developer, Lambda School</cite>
+                                    <cite>
+                                        Rahul Desai - Full Stack Developer, Lambda School
+                                    </cite>
+                                </blockquote>
+                            </li>
+                            <li>
+                                <blockquote>
+                                    <p>
+                                        Adam is a fantastic developer and a skilled
+                                        leader. As a developer, he was a key member of a
+                                        team that produced one of the best projects ever
+                                        to come out of Lambda and one that I frequently
+                                        use as an example of what we can do. He uses this
+                                        knowledge to mentor junior developers and help
+                                        them when they are stuck. <br /> He is also a
+                                        fantastic leader. He see's gaps and jumps to fill
+                                        them. He applies clever thinking to solve problems
+                                        and works collaboratively to get everyone on
+                                        board. He can be delegated to and entrusted to
+                                        complete a task independently but is also happy to
+                                        take direction. I can't recommend him strongly
+                                        enough!
+                                    </p>
+                                    <cite>
+                                        Brian Doyle - Program Director, Lambda School
+                                    </cite>
                                 </blockquote>
                             </li>
                         </Slider>
@@ -93,6 +132,6 @@ const Testimonials = () => (
             </div>
         </div>
     </section>
-)
+);
 
-export default Testimonials
+export default Testimonials;
