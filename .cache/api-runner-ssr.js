@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography.js"},
     },{
-      plugin: require('/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["librebaskerville","open sans"]},
     },{
-      plugin: require('/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

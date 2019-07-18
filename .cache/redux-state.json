@@ -5,24 +5,24 @@
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js",
+      "component": "/Users/adamhinckley/Google Drive/Lambda/portfolio/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/.cache/dev-404-page.js",
+      "componentPath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb4a44c0cb2ac7dbd487c8a228bb841d",
+        "contentDigest": "11544fea5487a6b6d6f1c93adeaa6ec9",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +34,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +51,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "09d15426fd42cc795212346a03730076",
+        "contentDigest": "caf8c56253da8268eb9598515011868d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -69,7 +69,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -90,13 +90,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f0402d715aaaafa9e20371efbec9e54e",
+        "contentDigest": "976b6b3c1679c7ef704a9e8dd6ebad2e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -109,7 +109,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -126,13 +126,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e89769d27321757ea9619cda88cb63bd",
+        "contentDigest": "fd889749146ee0ea4ef88110b297b201",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -144,7 +144,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -161,13 +161,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "380c12cc145bf395548cb1d578ea3288",
+        "contentDigest": "71c5ad0726e744e59c15fd779381e1f7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -180,7 +180,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -197,13 +197,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "654d2fb8e5a10dc31750f50ecbfba392",
+        "contentDigest": "b07a35c898cd77ed70f2e3ff4e4ca9d8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-typography": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-typography",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
       "name": "gatsby-plugin-typography",
       "version": "1.7.10",
@@ -218,7 +218,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-typography",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-typography",
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
@@ -259,20 +259,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2572d1a86e44290a1efa25b2f8838f01",
+        "contentDigest": "24be81ea4538780fcf2c1c2ebf78f423",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-source-filesystem": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-source-filesystem",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-source-filesystem",
       "id": "Plugin gatsby-source-filesystem",
       "name": "gatsby-source-filesystem",
       "version": "1.5.39",
       "pluginOptions": {
         "plugins": [],
         "name": "images",
-        "path": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images"
+        "path": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images"
       },
       "nodeAPIs": [
         "sourceNodes",
@@ -280,7 +280,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-source-filesystem",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-source-filesystem",
       "packageJson": {
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
@@ -359,13 +359,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "aeb5e56dba792122eb2e36d218379dc9",
+        "contentDigest": "ba6e6a144586e0afa9cd4c5d1246e905",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-google-fonts": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-fonts",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-google-fonts",
       "id": "Plugin gatsby-plugin-google-fonts",
       "name": "gatsby-plugin-google-fonts",
       "version": "0.0.3",
@@ -381,7 +381,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-google-fonts",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-google-fonts",
       "packageJson": {
         "name": "gatsby-plugin-google-fonts",
         "description": "Bring Google Fonts to Gatsby",
@@ -404,20 +404,20 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ef198f6210aaac71193043d089def4f9",
+        "contentDigest": "ad246fb2835f019df3a12d3fa8cfd730",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-remark": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-remark",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
       "version": "1.7.44",
       "pluginOptions": {
         "plugins": [
           {
-            "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-images",
+            "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-remark-images",
             "id": "Plugin gatsby-remark-images",
             "name": "gatsby-remark-images",
             "version": "1.5.67",
@@ -428,10 +428,10 @@
             "nodeAPIs": [],
             "browserAPIs": [],
             "ssrAPIs": [],
-            "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-images"
+            "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-remark-images"
           },
           {
-            "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
+            "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
             "id": "Plugin gatsby-remark-copy-linked-files",
             "name": "gatsby-remark-copy-linked-files",
             "version": "1.5.37",
@@ -441,7 +441,7 @@
             "nodeAPIs": [],
             "browserAPIs": [],
             "ssrAPIs": [],
-            "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files"
+            "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files"
           }
         ]
       },
@@ -451,7 +451,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-remark",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
@@ -567,13 +567,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5283c0f50d98a870e571df960b2d94f2",
+        "contentDigest": "62ffb2973a3eb853e9777ad1ff281a10",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-remark-images": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-images",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-remark-images",
       "id": "Plugin gatsby-remark-images",
       "name": "gatsby-remark-images",
       "version": "1.5.67",
@@ -584,7 +584,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-images",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-remark-images",
       "packageJson": {
         "name": "gatsby-remark-images",
         "description": "Processes images in markdown so they can be used in the production build.",
@@ -647,13 +647,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "64c1538ec60155bf2b733e847b9ed2f6",
+        "contentDigest": "23fc1729a1918af81139ecb08519c27e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-remark-copy-linked-files": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
       "id": "Plugin gatsby-remark-copy-linked-files",
       "name": "gatsby-remark-copy-linked-files",
       "version": "1.5.37",
@@ -663,7 +663,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-remark-copy-linked-files",
       "packageJson": {
         "name": "gatsby-remark-copy-linked-files",
         "description": "Find files which are linked to from markdown and copy them to the public directory",
@@ -728,13 +728,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7199441e65ed4994824a8cad028e0ad9",
+        "contentDigest": "6bae99a53326cc0e710afd5e62bd06fd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-transformer-sharp": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-sharp",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-transformer-sharp",
       "id": "Plugin gatsby-transformer-sharp",
       "name": "gatsby-transformer-sharp",
       "version": "1.6.27",
@@ -748,7 +748,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-transformer-sharp",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-transformer-sharp",
       "packageJson": {
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
@@ -796,13 +796,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6e798a54c8a07c988483d656b447bfd5",
+        "contentDigest": "140ccf0d981e7d0047d4635a3752992a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sharp": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sharp",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
       "version": "1.6.48",
@@ -812,7 +812,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
@@ -902,13 +902,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4c83ece311302fefa95f00ca94f4926a",
+        "contentDigest": "d3d6f71e6edb445e2ae15e8ebfa5cab3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "1.0.8",
@@ -920,7 +920,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Stub description for gatsby-plugin-react-helmet",
@@ -958,13 +958,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e2911d220266e75c8615e3cd406c0a98",
+        "contentDigest": "ab18dec5242ff6e3dc268d3f638c067b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sass": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sass",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-sass",
       "id": "Plugin gatsby-plugin-sass",
       "name": "gatsby-plugin-sass",
       "version": "1.0.26",
@@ -976,7 +976,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-sass",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-sass",
       "packageJson": {
         "name": "gatsby-plugin-sass",
         "description": "Gatsby plugin to handle scss/sass files",
@@ -1038,13 +1038,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "16f8ece51ef632d4482aea08755fc786",
+        "contentDigest": "853fc17fc58cb711215d44bde8565893",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "282642b8d371ba8d3cbdb504d891591f",
@@ -1054,7 +1054,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio",
       "packageJson": {
         "name": "gatsby-starter-ceevee",
         "description": "Gatsby Starter - CeeVee ",
@@ -1152,19 +1152,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b0d7166888beec2a9ea2007a4b2b9e25",
+        "contentDigest": "72c14e14921bbc9caa58ba582d504bb2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "1.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages",
+        "path": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -1172,7 +1172,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -1231,7 +1231,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "41c25150f90a9bff6e869bf1b98c6a4c",
+        "contentDigest": "9fdcada448d05e929aa74dc10cee767a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1244,63 +1244,64 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "/",
-      "buildTime": "2019-03-13T21:49:52.054Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-07-18T05:12:49.549Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e7557b430d14e6b60b22d4a70acdc0e0",
+        "contentDigest": "a2982de1c6e78f9523d0ee93f3f66e86",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images absPath of file": {
-      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images absPath of file",
+    "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images absPath of file": {
+      "id": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b739965150b8e8599f48b022e857be62",
+        "contentDigest": "c87b06a602bc81aff83e23064ac818c1",
         "type": "Directory",
         "description": "Directory \"src/assets/images\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "absolutePath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images",
       "relativePath": "",
       "extension": "",
-      "size": 416,
-      "prettySize": "416 B",
-      "modifiedTime": "2019-03-12T05:05:28.710Z",
-      "accessTime": "2019-03-13T21:50:01.370Z",
-      "changeTime": "2019-03-12T05:05:28.710Z",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2019-03-13T22:22:00.653Z",
+      "accessTime": "2019-07-18T05:13:01.393Z",
+      "changeTime": "2019-03-13T22:22:00.653Z",
       "birthTime": "2019-02-07T03:18:32.000Z",
       "root": "/",
-      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets",
+      "dir": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets",
       "base": "images",
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 13,
+      "nlink": 5,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 23256673,
       "blocks": 0,
-      "atimeMs": 1552513801370.222,
-      "mtimeMs": 1552367128710.3904,
-      "ctimeMs": 1552367128710.3904,
+      "atimeMs": 1563426781393.0564,
+      "mtimeMs": 1552515720653.013,
+      "ctimeMs": 1552515720653.013,
       "birthtimeMs": 1549509512000,
-      "atime": "2019-03-13T21:50:01.370Z",
-      "mtime": "2019-03-12T05:05:28.710Z",
-      "ctime": "2019-03-12T05:05:28.710Z",
+      "atime": "2019-07-18T05:13:01.393Z",
+      "mtime": "2019-03-13T22:22:00.653Z",
+      "ctime": "2019-03-13T22:22:00.653Z",
       "birthtime": "2019-02-07T03:18:32.000Z"
     },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/.DS_Store absPath of file": {
-      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/.DS_Store absPath of file",
+    "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/.DS_Store absPath of file": {
+      "id": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/.DS_Store absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
@@ -1311,7 +1312,7 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/.DS_Store",
+      "absolutePath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/.DS_Store",
       "relativePath": ".DS_Store",
       "extension": "",
       "size": 6148,
@@ -1321,7 +1322,7 @@
       "changeTime": "2019-03-13T22:19:21.350Z",
       "birthTime": "2019-02-07T03:18:32.000Z",
       "root": "/",
-      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "dir": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images",
       "base": ".DS_Store",
       "ext": "",
       "name": ".DS_Store",
@@ -1344,130 +1345,10 @@
       "ctime": "2019-03-13T22:19:21.350Z",
       "birthtime": "2019-02-07T03:18:32.000Z"
     },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file": {
-      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file",
+    "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file": {
+      "id": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file",
       "children": [
-        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/assets/images/adam-head-shot.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg",
-      "relativePath": "adam-head-shot.jpg",
-      "extension": "jpg",
-      "size": 686833,
-      "prettySize": "687 kB",
-      "modifiedTime": "2019-02-27T02:35:58.260Z",
-      "accessTime": "2019-02-27T02:35:58.510Z",
-      "changeTime": "2019-02-27T02:35:58.261Z",
-      "birthTime": "2019-02-27T02:34:59.470Z",
-      "root": "/",
-      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
-      "base": "adam-head-shot.jpg",
-      "ext": ".jpg",
-      "name": "adam-head-shot",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23319078,
-      "blocks": 1344,
-      "atimeMs": 1551234958509.58,
-      "mtimeMs": 1551234958260,
-      "ctimeMs": 1551234958260.829,
-      "birthtimeMs": 1551234899470.303,
-      "atime": "2019-02-27T02:35:58.510Z",
-      "mtime": "2019-02-27T02:35:58.260Z",
-      "ctime": "2019-02-27T02:35:58.261Z",
-      "birthtime": "2019-02-27T02:34:59.470Z"
-    },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp": {
-      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file",
-      "internal": {
-        "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "1d0efb9613aedee1f8f787a17d3a31fa",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "229187972ee1d4457e1fd9112f4e462d",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "5b3063ca2b973c35797ad32106ac99b1",
-        "description": "Plugin prod-404",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file": {
-      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file",
-      "children": [
-        "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp"
+        "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp"
       ],
       "parent": "___SOURCE___",
       "internal": {
@@ -1478,17 +1359,17 @@
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png",
+      "absolutePath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/overlay-bg.png",
       "relativePath": "overlay-bg.png",
       "extension": "png",
       "size": 935,
       "prettySize": "935 B",
       "modifiedTime": "2019-03-13T22:22:00.655Z",
-      "accessTime": "2019-03-13T22:22:00.699Z",
-      "changeTime": "2019-03-13T22:22:00.658Z",
+      "accessTime": "2019-03-13T22:22:06.990Z",
+      "changeTime": "2019-03-13T22:22:00.907Z",
       "birthTime": "2019-03-13T22:22:00.653Z",
       "root": "/",
-      "dir": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images",
+      "dir": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images",
       "base": "overlay-bg.png",
       "ext": ".png",
       "name": "overlay-bg",
@@ -1502,23 +1383,143 @@
       "blksize": 4096,
       "ino": 23870714,
       "blocks": 8,
-      "atimeMs": 1552515720698.826,
+      "atimeMs": 1552515726990.4795,
       "mtimeMs": 1552515720655.3003,
-      "ctimeMs": 1552515720657.9382,
+      "ctimeMs": 1552515720907.4773,
       "birthtimeMs": 1552515720652.9937,
-      "atime": "2019-03-13T22:22:00.699Z",
+      "atime": "2019-03-13T22:22:06.990Z",
       "mtime": "2019-03-13T22:22:00.655Z",
-      "ctime": "2019-03-13T22:22:00.658Z",
+      "ctime": "2019-03-13T22:22:00.907Z",
       "birthtime": "2019-03-13T22:22:00.653Z"
     },
-    "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp": {
-      "id": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp",
+    "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file >> ImageSharp",
       "children": [],
-      "parent": "/Users/adamhinckley/Dropbox/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file",
+      "parent": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/overlay-bg.png absPath of file",
       "internal": {
         "contentDigest": "9176109b8b53b0cd9be8b698b720be5e",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file": {
+      "id": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file",
+      "children": [
+        "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/adam-head-shot.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/adam-head-shot.jpg",
+      "relativePath": "adam-head-shot.jpg",
+      "extension": "jpg",
+      "size": 686833,
+      "prettySize": "687 kB",
+      "modifiedTime": "2019-02-27T02:35:58.260Z",
+      "accessTime": "2019-03-11T17:09:11.477Z",
+      "changeTime": "2019-02-27T02:35:58.261Z",
+      "birthTime": "2019-02-27T02:34:59.470Z",
+      "root": "/",
+      "dir": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images",
+      "base": "adam-head-shot.jpg",
+      "ext": ".jpg",
+      "name": "adam-head-shot",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23319078,
+      "blocks": 1344,
+      "atimeMs": 1552324151476.9788,
+      "mtimeMs": 1551234958260,
+      "ctimeMs": 1551234958260.829,
+      "birthtimeMs": 1551234899470.303,
+      "atime": "2019-03-11T17:09:11.477Z",
+      "mtime": "2019-02-27T02:35:58.260Z",
+      "ctime": "2019-02-27T02:35:58.261Z",
+      "birthtime": "2019-02-27T02:34:59.470Z"
+    },
+    "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/assets/images/adam-head-shot.jpg absPath of file",
+      "internal": {
+        "contentDigest": "2172ff9eedb45e0a9eef5aa397a9d647",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8b95fff5be06d8149c7a597a12883d38",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c01220f2110430eb175a547689bda6de",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/adamhinckley/Google Drive/Lambda/portfolio/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ffab2789d42c2487c3bc9652d394dd8f",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
       }
     }
   },
