@@ -15,7 +15,7 @@ const SocialLinks = () => (
             </a>
         </li>
         <li>
-            <a href="https://twitter.com/hinckleyadam" target="_blank">
+            <a href="https://twitter.com/zeroadameleven" target="_blank">
                 <FaTwitter />
             </a>
         </li>
